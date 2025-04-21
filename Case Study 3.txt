@@ -1,0 +1,39 @@
+User Story / Sprint: One Week
+
+Need two pages (yearly page and monthly page) and navigation from one page to another page based on filter.
+
+Need a main page with Yearly and Monthly Pages Individual Navigations, display main page in mobile view also.
+
+
+Yearly Page:
+
+		a) Vinay Tech Logo with vinay tech website opening based on image click
+		b) Vinay Tech Business Address with Total Business Value Presentation
+		c) Need Year manual filtering to see respective year data in the page
+		d) Need quick access to 2017, 2018 and 2019 yearly data
+		e) Need a back button to go back to Main Page
+		f)  Display Total DF Vs. Actual Fee in easy understandable way in graphical format
+		g) Display Total DF Vs. Actual Fee in the range of 5M to 35M for all years
+		h) Need year wise current year, last year, two years prior information. [slicing should not apply]
+		i)  Need Year wise cumulative total [slicing shout not apply]
+		j) When we click an year in any visual, it has to go to monthly page and display respective year and month data
+		k) Display Yearly page Mobile View
+				
+		
+Monthly Page
+
+		a) Need a visual with monthly data filtering to see respective months data, at a time only one month to be selected
+		b) Month wise [month number order], current month, last month, growth, growth percentage display,
+			Display negative values in red color and positive values in green color
+		c) Every month status among multiple statuses based on the below criteria
+		
+		d) No mobile view for this page
+
+
+This report needs to be tested throughly and generate a test case document.
+After Testing Move to Test Env and Prod environments in the cloud.
+
+Ensure Data refresh happening at all environments level, refresh the dataset at 9 am everyday and share the report
+after refresh at 9. 10 am to the associated people in easy accessible way.
+
+Maintain a proper versioning for the report changes.
