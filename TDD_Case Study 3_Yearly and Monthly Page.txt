@@ -1,0 +1,43 @@
+Technical Design Elements Identification
+========================
+a) Sources, Connections, Security Tokens
+		Vinay Tech Business Excel, since it is local file no seperate credentials needed.
+		DimDate, FactPayments
+b) Transformations
+
+
+c) Model Relationships
+		Factpayments. DimDate 
+
+d) Model-Calculations
+	Measures: Sum DF, Sum AF, 5M, 35M, Current Df, Last DF, Two Years Prior DF, Cumulative Total, Current month,
+			last month, growth, growth percent, Status measures (7 measures)
+	Columns:
+	Tables:
+e) Visuals
+	Image/Shape Visuals (button kind of display) (2)
+	Yearly Page
+		Image (a)
+		Textbox(b)
+		Slicer(c)
+		Back button (e)
+		KPI(f)
+		Gauge(g)
+		Table(h)
+		Table(I)
+	Monthly Page
+
+		l) Slicer, radio button (radio button for single selection, checkbox for multiple selections)
+		m) Table, Month Name data order, conditional format
+		n) Bullet chart
+
+f) Reporting concepts:
+		Drill through concept (1)
+		Page Navigations and Mobile View (2)
+		URL Action (a)
+		QA inside Textbox(b)
+		Bookmarks and Bookmark action (d)
+		Format concept-Visual Interactions Controlling (h) (I)
+		Drill Through (J)
+		Mobile View (k)
+		No Mobile view (n)
